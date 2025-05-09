@@ -1,0 +1,85 @@
+body, html {
+    height: auto;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(167, 207, 233, 0.477);
+    height: 150%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,footer {
+    background-color: #333;
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+nav {
+    float: right;
+    margin-left: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #555;
+}
+.logo {
+    float: left;
+    margin-right: 50px;
+    margin-top: -50px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace, sans-serif; 
+    font-size:3em;
+}
+#profilPic{
+    border-radius: 50%;
+    width: 100px;
+    width: 100px;
+}
+
+.contlogo{
+    width:40px;
+    border-radius: 30px;
+}
+
+.pgback{
+    background-image:url("https://www.floornature.com/media/photos/1/12539/01_zha_wangjing_soho_ph-jerry_yin_full.jpg"); 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 80%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text ,.interview ,h2{
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+}
+.view {
+color: rgb(5, 5, 5);
+font-weight: bold;
+border: 3px solid #0e0101;
+max-width: 800px;
+margin: 20px auto;
+text-align: center;
+width: 35cm;
+
+}
